@@ -1,9 +1,3 @@
----
-noteId: "f959f4605e5111f19b67039edb4b38c8"
-tags: []
-
----
-
 # 90 Days AI/ML Engineer Roadmap
 
 A public 90-day learning challenge to become a more job-ready AI and Machine Learning Engineer.
