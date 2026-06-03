@@ -53,6 +53,7 @@ Weekly-Reviews/
 
 ## Rules
 
+- Always read roadmap.md before helping with daily tasks.
 - Do not delete existing work without asking.
 - Keep explanations clear and beginner-friendly.
 - Prefer simple working projects over complex abstractions.

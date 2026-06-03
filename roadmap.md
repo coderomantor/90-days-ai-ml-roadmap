@@ -70,7 +70,7 @@ Each day should include:
 | Day | Focus | Deliverable | Status |
 | --- | --- | --- | --- |
 | Day 01 | NumPy fundamentals | Student Marks Analyzer | Completed |
-| Day 02 | NumPy practice and Pandas intro | Small data table exercise | Upcoming |
-| Day 03 | Pandas DataFrames | DataFrame analysis notes | Upcoming |
+| Day 02 | NumPy practice and Pandas intro | Student Performance DataFrame | Completed |
+| Day 03 | Pandas DataFrames and data cleaning | DataFrame analysis notes | Ready to start |
 | Day 04 | Data cleaning | Cleaning practice project | Upcoming |
 | Day 05 | Mini data analysis | First mini analysis report | Upcoming |

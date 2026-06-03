@@ -1,8 +1,8 @@
 # 90 Days AI/ML Engineer Roadmap
 
-A public 90-day learning challenge to become a more job-ready AI and Machine Learning Engineer.
+A public 90-day learning challenge to become a stronger, job-ready AI and Machine Learning Engineer.
 
-I am documenting my daily learning, beginner-friendly projects, useful resources, and weekly reflections as I build stronger AI/ML foundations and a professional GitHub portfolio.
+I am documenting daily learning, beginner-friendly projects, useful resources, screenshots, and weekly reflections while building a professional GitHub portfolio.
 
 ## About Me
 
@@ -14,7 +14,7 @@ I am documenting my daily learning, beginner-friendly projects, useful resources
 
 ## Goal
 
-The goal of this repository is to learn in public, build practical projects, and show consistent progress toward AI/ML engineering skills that are useful in real work.
+The goal of this repository is to learn in public, build practical AI/ML projects, and show consistent progress through clean documentation.
 
 ## Roadmap Overview
 
@@ -33,9 +33,9 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day | Topic | Project | Status |
 | --- | --- | --- | --- |
 | Day 01 | NumPy Fundamentals | Student Marks Analyzer | Completed |
-| Day 02 | NumPy Practice + Pandas Introduction | Coming soon | Upcoming |
-| Day 03 | Pandas DataFrames | Coming soon | Upcoming |
-| Day 04 | Data Cleaning Basics | Coming soon | Upcoming |
+| Day 02 | NumPy 2D Arrays and Pandas Introduction | Student Performance DataFrame | Completed |
+| Day 03 | Pandas DataFrames and Data Cleaning | Coming soon | Ready to start |
+| Day 04 | Data Cleaning Practice | Coming soon | Upcoming |
 | Day 05 | Mini Data Analysis Project | Coming soon | Upcoming |
 
 ## Repository Structure
@@ -53,6 +53,13 @@ For the full plan, see [roadmap.md](roadmap.md).
 │   │   ├── student_marks_analyzer.py
 │   │   └── requirements.txt
 │   └── screenshots/
+├── Day-02/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── student_performance_dataframe.py
+│   │   └── requirements.txt
+│   └── screenshots/
 └── Weekly-Reviews/
     └── Week-01.md
 ```
@@ -61,29 +68,25 @@ For the full plan, see [roadmap.md](roadmap.md).
 
 Each daily folder includes:
 
-- `README.md` for learning notes and project explanation
-- `resources.md` for links used that day
+- `README.md` for learning notes, project explanation, and reflection
+- `resources.md` for helpful learning links
 - `project/` for beginner-friendly code
-- `screenshots/` for output images or progress screenshots
+- `screenshots/` for terminal output or project images
 
-## Current Project
+## Completed Projects
 
 ### Day 01: Student Marks Analyzer
 
-The first project uses NumPy to analyze marks for multiple students and produce a clean terminal summary. It calculates:
-
-- Total marks
-- Average marks
-- Highest and lowest marks
-- Class-level summary statistics
+Used NumPy to analyze marks for multiple students and calculate totals, averages, highest marks, lowest marks, and class-level statistics.
 
 Project folder: [Day-01/project](Day-01/project)
-Screenshot: [Day-01/screenshots](Day-01/screenshots)
+
+### Day 02: Student Performance DataFrame
+
+Used NumPy and Pandas to create a student performance DataFrame, calculate new columns, explore tabular data, and understand `axis=0`, `axis=1`, and `np.where()`.
+
+Project folder: [Day-02/project](Day-02/project)
 
 ## Why I Am Sharing This
 
-Learning in public helps me stay consistent, improve my communication, and build a portfolio that clearly shows my growth. I also hope this repository helps other students who want a simple path into AI/ML engineering.
-
-## Connect
-
-I will continue updating this repository daily as part of my 90-day AI/ML roadmap challenge.
+Learning in public helps me stay consistent, improve my communication, and build a portfolio that clearly shows my growth. I also hope this roadmap helps other students who want a simple path into AI/ML engineering.
