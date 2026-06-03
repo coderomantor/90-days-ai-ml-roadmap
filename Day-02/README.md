@@ -84,6 +84,10 @@ pip install -r requirements.txt
 python student_performance_dataframe.py
 ```
 
+## Output Screenshot
+
+Terminal output screenshot: [screenshots/day-02-terminal-output.png](screenshots/day-02-terminal-output.png)
+
 ## Important Pandas Syntax
 
 Select one column:
