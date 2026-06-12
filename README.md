@@ -40,24 +40,25 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 06 | Exploratory Data Analysis, dataset overview, quality checks, EDA visualizations | Employee Data Analysis Report | Completed |
 | Day 07 | Revision, interview questions, Week 1 review | Weekly Review Checklist | Completed |
 | Day 08 | Feature engineering basics, encoding, dataset preparation | Dataset Preparation | Completed |
+| Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 08 - Feature Engineering Basics and Encoding**
+Completed through: **Day 09 - Feature Scaling, Normalization, and Standardization**
 
-Latest project: **Dataset Preparation**
+Latest project: **Data Preprocessing Pipeline**
 
-Day 08 deliverables:
+Day 09 deliverables:
 
-- Create an employee dataset for preprocessing practice
-- Add engineered features from salary, age, and experience
-- Encode categorical columns for machine learning
-- Save the prepared dataset as a CSV file
-- Connect data preparation to the ML workflow
+- Create an employee dataset for scaling practice
+- Apply min-max normalization to numeric features
+- Apply standardization using mean and standard deviation
+- Compare original and scaled values
+- Save the preprocessed dataset as a CSV file
 
-Next day: **Day 09 - Feature Scaling, Normalization, and Standardization**
+Next day: **Day 10 - Train/Test Split**
 
 ## Repository Structure
 
@@ -121,6 +122,13 @@ Next day: **Day 09 - Feature Scaling, Normalization, and Standardization**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── dataset_preparation.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-09/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── data_preprocessing_pipeline.py
 │   │   └── requirements.txt
 │   └── screenshots/
 └── Weekly-Reviews/
@@ -187,11 +195,17 @@ Used Pandas to create engineered features, encode categorical columns, and prepa
 
 Project folder: [Day-08/project](Day-08/project)
 
-## Upcoming Projects
-
 ### Day 09: Data Preprocessing Pipeline
 
-Learn feature scaling, normalization, and standardization for preparing numeric features before machine learning.
+Used Pandas to normalize and standardize numeric employee features, compare scaled values, and save a preprocessed dataset for machine learning.
+
+Project folder: [Day-09/project](Day-09/project)
+
+## Upcoming Projects
+
+### Day 10: Dataset Splitting Tool
+
+Learn how to split a dataset into training and testing data before machine learning.
 
 ## Why I Am Sharing This
 

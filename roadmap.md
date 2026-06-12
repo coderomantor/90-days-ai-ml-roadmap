@@ -168,7 +168,7 @@ Deliverable:
 
 ---
 
-### Day 09
+### Day 09 ✅
 
 Topics:
 
@@ -179,6 +179,12 @@ Topics:
 Project:
 
 * Data Preprocessing Pipeline
+
+Deliverable:
+
+* Apply min-max normalization
+* Apply standardization
+* Save preprocessed dataset
 
 ---
 

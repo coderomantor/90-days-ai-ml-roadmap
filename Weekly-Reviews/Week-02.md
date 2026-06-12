@@ -19,7 +19,7 @@ This week focuses on preparing data for machine learning and starting the transi
 | Day | Topic | Project | Status |
 | --- | --- | --- | --- |
 | Day 08 | Feature engineering basics and encoding | Dataset Preparation | Completed |
-| Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Not Started |
+| Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
 | Day 10 | Train/test split | Dataset Splitting Tool | Not Started |
 | Day 11 | Introduction to Machine Learning | ML Workflow Notes | Not Started |
 | Day 12 | Linear Regression Theory | House Price Prediction Part 1 | Not Started |
@@ -33,6 +33,9 @@ This week focuses on preparing data for machine learning and starting the transi
 - How to encode ordered categories using ordinal encoding.
 - How to encode unordered categories using one-hot encoding.
 - Why machine learning models need numeric input features.
+- How to normalize numeric values to a 0 to 1 range.
+- How to standardize numeric values using mean and standard deviation.
+- Why scaling helps models compare features with different units.
 
 ## What I Should Practice
 
@@ -40,6 +43,8 @@ This week focuses on preparing data for machine learning and starting the transi
 - Practice encoding different categorical columns.
 - Explain when to use ordinal encoding instead of one-hot encoding.
 - Review the prepared dataset before moving to scaling.
+- Practice scaling more numeric columns.
+- Explain the difference between normalization and standardization.
 
 ## Notes For The Rest Of Week 2
 
